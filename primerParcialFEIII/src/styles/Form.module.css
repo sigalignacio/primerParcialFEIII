@@ -1,0 +1,22 @@
+.display {
+    display: flex;
+    margin-bottom: 10vh;
+    flex-direction: column; /* Alinear los elementos en una columna */
+    align-items: center;
+    gap: 10px;
+
+}
+
+.display > * {
+    gap: 20px;
+}
+
+.button {
+    margin-top: 3vh;
+    width: 10vw;
+}
+
+input {
+    width: 12vw;
+    height: 2.5vh;
+}
